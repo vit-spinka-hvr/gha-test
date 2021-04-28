@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'feature2/**'
+      - '.github/workflows/feature2-**'
 
 jobs:
   test1:
