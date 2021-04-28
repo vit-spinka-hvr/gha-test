@@ -1,0 +1,13 @@
+name: Feature 1
+
+on:
+  push:
+    paths:
+      - 'feature1/**'
+
+jobs:
+  test1:
+    runs-on: ubuntu-latest
+      - name: run test
+        run: |
+          echo 1
